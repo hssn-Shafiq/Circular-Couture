@@ -1,0 +1,6 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.hurrcollective.com	TRUE	/	FALSE	1999999999	ahoy_visitor	0906615f-db1f-424c-bbc0-5610fbe5cd03
+www.hurrcollective.com	TRUE	/	FALSE	1999999999	ahoy_visit	8622bcd9-ad29-427d-be4a-d5252c6e7196
+www.hurrcollective.com	TRUE	/	FALSE	1999999999	_hurr_session	Zh%2BAAfEce2YYdbGF2p2dU69xvX4%2F98xRZG3k4vrcNjcTnchrwcXM7S5ex8ZDRvL%2BZC5drnRiZmxCoSMv8m78D%2FUuRkH24j6WS1LV50F6alpxj7lnn5kL3fKDRjVviaVl%2FnCLunjUSPTyJFHg7sAkkx5xHoOT4yYUtjDlEY8xkhpfJMiD5%2FeP55AohrfmmIfuY%2FFvtdOVZ1OaH7bZQKe%2FQUQLerreM0eRlnF8ghdxIkPXazIAgTKSvCDuPUKJP%2FP5EBUzoezlVwFmpO4yyRfS6JJN8hTl497Gn24fGAntuRldn3DlovAeZyWulz9bnuvd4cZ7PdQpYRaAR2Lhu6lpJNlHprsPmaaBAh58eGBhN46NhHRuZQ%3D%3D--VHH28oiRtcTzLn%2FY--3wp0X9Y%2BuXNDrOGeA03Kmg%3D%3D
+
