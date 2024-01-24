@@ -105,7 +105,9 @@ div.component.banner {
 #productCarousel .carousel-inner{
     gap: 40px !important;
 }
-
+#productCarousel .carousel-inner .carousel-item{
+    width: 250px;
+}
 
 
 /* footer section */
