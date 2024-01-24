@@ -3,6 +3,12 @@
     padding: 0px;
     box-sizing: border-box;
 }
+body{
+    font-family: sans-serif;
+}
+:root{
+    --font-family: sans-serif;
+}
 header{
     overflow-x: hidden !important;;
 }
@@ -108,6 +114,44 @@ div.component.banner {
 #productCarousel .carousel-inner .carousel-item{
     width: 250px;
 }
+
+.product-section .title h4{
+    font-size: 34px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.product-section .title  span i{
+    color: rgb(56 55 55 / 30%);
+    font-size: 15px;
+}
+
+.product-section .carousel-inner .carousel-item .product-description{
+
+    h5{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 14px;
+    font-family: sans-serif;
+    }
+
+    .catagory{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 500;
+    }
+    .price{
+        /* line-height: 10px; */
+        color: rgb(177, 177, 177);
+        margin-top: -10px;
+        margin-bottom: 5px;
+        
+    }
+    .rent-buy{
+        line-height: 0px;
+        color: black;
+    }
+}
+
 
 
 /* footer section */

@@ -16,7 +16,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
 
@@ -116,7 +116,11 @@
       </div>
 
       <!-- product crousel  -->
-      <div class="container mt-5">
+      <div class="container product-section my-5">
+        <div class="title d-flex align-items-center justify-content-between pe-5">
+          <h4>Now Trending</h4>
+          <span><i class="fa-solid fa-arrow-right"></i></span>
+        </div>
         <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner d-flex align-items-center justify-content-between">
             <!-- Product Item 1 -->
@@ -125,7 +129,7 @@
                 <img src="assets/images/product-images/pr1.webp" class="img-fluid" alt="Product 1" >
                 <div class="product-description p-2">
                   <h5 class="d-flex align-items-center justify-content-between"> ZIMMERMANN<span class="heart-icon"><i class="fa-regular fa-heart"></i></span></h5>
-                  <p>Gold bee clutchbag</p>
+                  <p class="catagory">Gold bee clutchbag</p>
                   <p class="price"><strike>RRP $350</strike></p>
                   <p class="rent-buy d-flex align-items-center justify-content-between">RENT $40 <span>BUY $250</span></p>
                 </div>
@@ -137,8 +141,8 @@
               <div class="product-item">
                 <img src="assets/images/product-images/pr1.webp" class="img-fluid" alt="Product 1" >
                 <div class="product-description p-2">
-                  <h5 class="d-flex align-items-center justify-content-between"> ZIMMERMANN<span class="heart-icon"><i class="fa-regular fa-heart"></i></span></h5>
-                  <p>Gold bee clutchbag</p>
+                  <h5 class="d-flex align-items-center justify-content-between"> Botega Venega<span class="heart-icon"><i class="fa-regular fa-heart"></i></span></h5>
+                  <p class="catagory">Sunglasses</p>
                   <p class="price"><strike>RRP $350</strike></p>
                   <p class="rent-buy d-flex align-items-center justify-content-between">RENT $40 <span>BUY $250</span></p>
                 </div>
@@ -151,7 +155,7 @@
                 <img src="assets/images/product-images/pr1.webp" class="img-fluid" alt="Product 1" >
                 <div class="product-description p-2">
                   <h5 class="d-flex align-items-center justify-content-between"> ZIMMERMANN<span class="heart-icon"><i class="fa-regular fa-heart"></i></span></h5>
-                  <p>Gold bee clutchbag</p>
+                  <p class="catagory">White shorts with gold buttons</p>
                   <p class="price"><strike>RRP $350</strike></p>
                   <p class="rent-buy d-flex align-items-center justify-content-between">RENT $40 <span>BUY $250</span></p>
                 </div>
@@ -164,7 +168,7 @@
                 <img src="assets/images/product-images/pr1.webp" class="img-fluid" alt="Product 1" >
                 <div class="product-description p-2">
                   <h5 class="d-flex align-items-center justify-content-between"> ZIMMERMANN<span class="heart-icon"><i class="fa-regular fa-heart"></i></span></h5>
-                  <p>Gold bee clutchbag</p>
+                  <p class="catagory">Two tone sequin top</p>
                   <p class="price"><strike>RRP $350</strike></p>
                   <p class="rent-buy d-flex align-items-center justify-content-between">RENT $40 <span>BUY $250</span></p>
                 </div>
@@ -175,14 +179,14 @@
           </div>
       
           <!-- Navigation Buttons -->
-          <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
+          <!-- <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Previous</span>
           </button>
           <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
-          </button>
+          </button> -->
         </div>
       </div>
     </main>
