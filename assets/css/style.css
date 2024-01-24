@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    overflow-x: hidden !important;;
+}
+.navbar .navbar-nav{
+    width: 80%;
+    padding-right: 80px;
+}
+.navbar .navbar-nav li a, .navbar .list a{
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.component-container {
+    margin-bottom: 30px;
+}
+
+
+
+@media (max-width: 575.98px) {
+    .component-container {
+        padding: 0 16px;
+    }
+}
+
+div.component.banner {
+    height: 600px;
+    background-image: url(/assets/images/background-images/f12a250d4c.jpg), url(/assets/images/background-images/bg3.jpg);
+    background-position: left, right;
+    background-repeat: no-repeat;
+    background-size: 50% 100%, 50% 100%;
+
+}
+
+div.component.banner .banner-content {
+text-align: center;
+width: 100%;
+}
+
+@media (max-width: 576px) {
+div.component.banner .banner-content {
+    width: 318px;
+}
+}
+
+div.component.banner .title {
+font-family: 'Times New Roman', Times, serif;
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 32px;
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+flex: none;
+order: 0;
+/* align-self: stretch; */
+flex-grow: 0
+}
+
+div.component.banner .description {
+font-family: 'europa-regular';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+text-transform: none;
+margin: 20px auto;
+}
+
+@media (max-width: 576px) {
+div.component.banner .description {
+    width: 318px
+}
+}
+
+a:link {
+text-decoration: none
+}
+
+@media (max-width: 720px) {
+div.component.banner {
+    height: 287px
+}
+}

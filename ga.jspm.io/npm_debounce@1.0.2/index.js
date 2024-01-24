@@ -1,3 +1,0 @@
-var e="undefined"!==typeof globalThis?globalThis:"undefined"!==typeof self?self:global;var l={};l=function debounce(l,n,t){var a,u,r,i,o;null==n&&(n=100);function later(){var e=Date.now()-i;if(e<n&&e>=0)a=setTimeout(later,n-e);else{a=null;if(!t){o=l.apply(r,u);r=u=null}}}var debounced=function(){r=this||e;u=arguments;i=Date.now();var f=t&&!a;a||(a=setTimeout(later,n));if(f){o=l.apply(r,u);r=u=null}return o};debounced.clear=function(){if(a){clearTimeout(a);a=null}};return debounced};var n=l;export default n;
-
-//# sourceMappingURL=index.js.map
