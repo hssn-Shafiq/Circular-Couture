@@ -44,7 +44,14 @@ div.component.banner .banner-content {
 text-align: center;
 width: 100%;
 }
-
+div.component.banner .banner-content .button-component .btn{
+    background: white;
+    color: black;
+    padding: 10px 30px;
+    width: 150px;
+    border:none;
+    margin: 0px 5px;
+}
 @media (max-width: 576px) {
 div.component.banner .banner-content {
     width: 318px;
@@ -92,4 +99,323 @@ text-decoration: none
 div.component.banner {
     height: 287px
 }
+}
+
+
+#productCarousel .carousel-inner{
+    gap: 40px !important;
+}
+
+
+
+/* footer section */
+
+.footer-section {
+    background-color: #f9fafb;
+    padding-top: 35px;
+    padding-bottom: 35px
+}
+
+.footer-section h3 {
+    font-family: 'Havenbrook 2 Demibold', sans-serif;
+    letter-spacing: 0px;
+    color: #241E19;
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 20px
+}
+
+.footer-section .social-link {
+    color: #241E19;
+    font-size: 1.4em
+}
+
+.footer-section .social-link:hover {
+    opacity: 0.8
+}
+
+.footer-section .link-wrapper {
+    padding-left: 3.45em
+}
+
+.footer-section .link-wrapper.-information {
+    padding-left: 5em
+}
+
+.footer-section .footer-link {
+    color: #592530;
+    border-bottom: 1px solid transparent;
+    transition: all 300ms cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-decoration: none
+}
+
+.footer-section .footer-link.-active {
+    color: #c7b6a2
+}
+
+.footer-section .footer-link:hover {
+    color: #AA5959;
+    border-color: #AA5959 !important;
+    border-bottom-width: 1px
+}
+
+.footer-section .copyright {
+    font-size: 12px;
+    line-height: 12px;
+    font-weight: 400;
+    letter-spacing: 1.5px
+}
+
+.footer-section .footer-links-row--mobile {
+    display: none
+}
+
+@media (max-width: 992.98px) {
+    .footer-section {
+        margin-top: 70px
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .footer-section .link-wrapper {
+        padding: unset
+    }
+
+    .footer-section .link-wrapper.-information {
+        padding-left: 1.5em
+    }
+
+    .footer-section .links-column {
+        padding-left: 0 !important;
+        padding-right: 0 !important
+    }
+
+    .footer-section .link-wrapper h3 {
+        font-size: 20px;
+        line-height: 20px
+    }
+}
+
+@media (max-width: 767.98px) {
+    .footer-section .link-wrapper {
+        padding: 1em
+    }
+
+    .footer-section .link-wrapper.-information {
+        padding-left: 1em
+    }
+
+    .footer-section .link-wrapper h3 {
+        font-size: 14px;
+        line-height: 14px
+    }
+
+    .footer-section .link-wrapper li {
+        margin-bottom: 0.3rem !important
+    }
+
+    .footer-section .link-wrapper a {
+        font-size: 12px;
+        line-height: 18px;
+        line-height: 14px
+    }
+}
+
+@media (max-width: 575.98px) {
+    .footer-section .link-wrapper h3 {
+        font-size: 22px;
+        line-height: 28px
+    }
+
+    .footer-section .footer-links-row--desktop {
+        display: none
+    }
+
+    .footer-section .footer-links-row--mobile {
+        display: block
+    }
+
+    .footer-section .footer-links-row--mobile .accordion {
+        padding: 1em
+    }
+
+    .footer-section .footer-links-row--mobile .accordion .link-wrapper {
+        padding: 0px
+    }
+
+    .footer-section .footer-links-row--mobile .accordion .link-wrapper h3 {
+        line-height: unset
+    }
+}
+
+.footer-section__field {
+    font-size: 14px;
+    color: #868c93;
+    border: 2px solid #b4afab;
+    border-right: none;
+    border-radius: 0;
+    padding: 12px;
+    height: 47px !important;
+    opacity: 0.9;
+    -webkit-appearance: none
+}
+
+.footer-section__button {
+    font-size: 14px;
+    padding: 12px 20px;
+    background-color: #b4afab;
+    border-color: #b4afab
+}
+
+.footer-section2 {
+    background-color: black !important;
+    padding: 35px 0 25px;
+}
+
+.footer-section2 .content {
+    margin-right: auto !important;
+    margin-left: auto !important;
+    max-width: 1020px;
+}
+
+.footer-section2 .footer-social-links {
+    width: auto;
+    height: auto;
+}
+
+.footer-section2 .footer-social-links img {
+    width: 100%;
+    height: 100%
+}
+
+.footer-section2 .first-column {
+    width: 300px;
+}
+
+.footer-section2 .second-column {
+    width: 250px;
+}
+
+.footer-section2 .third-column {
+    width: 240px;
+}
+
+.footer-section2 .fourth-column {
+    width: 200px;
+}
+
+@media (max-width: 1500.98px) {
+    .footer-section2 .first-column {
+        width: 282px;
+    }
+
+    .footer-section2 .second-column {
+        width: 290px;
+    }
+
+    .footer-section2 .third-column {
+        width: 268px;
+    }
+}
+
+@media (max-width: 1024.98px) {
+    .footer-section2 .content {
+        max-width: 812px
+    }
+
+    .footer-section2 .first-column {
+        width: 248px
+    }
+
+    .footer-section2 .second-column {
+        width: 186px
+    }
+
+    .footer-section2 .third-column {
+        width: 204px
+    }
+
+    .footer-section2 .fourth-column {
+        width: 100%
+    }
+}
+
+@media (max-width: 768.98px) {
+    .footer-section2 .content {
+        max-width: 638px
+    }
+
+    .footer-section2 .fifth-column {
+        width: 248px
+    }
+
+    .footer-section2 .second-column,
+    .footer-section2 .sixth-column {
+        width: 212px
+    }
+
+    .footer-section2 .third-column {
+        width: 100%
+    }
+
+    .footer-section2 .seventh-column {
+        width: 174px
+    }
+}
+
+@media (max-width: 575.98px) {
+    .footer-section2 .content {
+        max-width: 100%;
+        padding-left: 50px
+    }
+
+    .footer-section2 .first-column,
+    .footer-section2 .second-column,
+    .footer-section2 .third-column,
+    .footer-section2 .fourth-column {
+        width: 100%
+    }
+}
+
+.footer-links .header {
+    font-family: 'Havenbrook 2 Demibold', sans-serif;
+    color: #241E19;
+    font-size: 22px;
+    line-height: 22px
+}
+
+.footer-links .link {
+    
+    color: white;
+    font-size: 14px;
+    letter-spacing: 1.4px;
+    line-height: 14px
+}
+.whitelogo img {
+    width: 40%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.footer-copyright .text {
+    background-color: white;
+    color: #241E19;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    margin-top: -20px;
+}
+
+@media (max-width: 575.98px) {
+    .footer-copyright {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 232px
+    }
 }
