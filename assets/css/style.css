@@ -16,6 +16,70 @@ header{
     width: 80%;
     padding-right: 80px;
 }
+@media (max-width:600px) and (min-width:300px){
+    .navbar .navbar-nav{
+        width: 100%;
+        padding-right: 0px;
+    } 
+    main{
+        padding-right: 0rem !important;
+        padding-left: 0rem !important;
+    }
+    .component-container .component{
+        height: 400px;
+    }
+    .component-container .title{
+        font-size: 50px;
+        line-height: 53px;
+    }
+    .product-section{
+        margin-top: 9rem !important;
+    }
+    #productCarousel .carousel-inner .carousel-item{
+        width: 200px;
+    }
+    #productCarousel .carousel-inner{
+        gap: 10px !important;
+    }
+    .product-section .carousel-inner .carousel-item .product-description{
+
+        h5{
+        font-size: 12px;
+        font-family: sans-serif;
+        }
+
+        .price{
+            /* line-height: 10px; */
+            color: rgb(177, 177, 177);
+            margin-top: -10px;
+            margin-bottom: 5px;
+            
+        }
+        .rent-buy{
+            line-height: 0px;
+            color: black;
+            font-size: 12px;
+        }
+        .component-container-2 .banner-content {
+            width: 100%;
+        }
+        .component-container-2 .banner-content .title {
+            line-height: 42px;
+            font-size: 47px;
+            margin-bottom: 1.5rem;
+        }
+        .component-container .banner-content{
+            text-align: center !important;
+        }
+        .collections .collection-item{
+            text-align: center !important;
+        }
+        .collections .collection-item img{
+            width: 200px;
+        }
+    }
+
+}
 .navbar .navbar-nav li a, .navbar .list a{
     color: black;
     text-transform: uppercase;
@@ -62,7 +126,7 @@ width: 100%;
 }
 @media (max-width: 576px) {
 .component-container .banner-content {
-    width: 318px;
+    width: auto;
 }
 }
 
