@@ -37,7 +37,7 @@ header{
     }
 }
 
-div.component.banner {
+.component-container .component {
     height: 600px;
     background-image: url(../images/background-images/f12a250d4c.jpg), url(../images/background-images/bg3.jpg);
     background-position: left, right;
@@ -46,11 +46,13 @@ div.component.banner {
 
 }
 
-div.component.banner .banner-content {
+.component-container .banner-content {
 text-align: center;
 width: 100%;
 }
-div.component.banner .banner-content .button-component .btn{
+
+
+.component-container .banner-content .button-component .btn{
     background: white;
     color: black;
     padding: 10px 30px;
@@ -59,18 +61,17 @@ div.component.banner .banner-content .button-component .btn{
     margin: 0px 5px;
 }
 @media (max-width: 576px) {
-div.component.banner .banner-content {
+.component-container .banner-content {
     width: 318px;
 }
 }
 
-div.component.banner .title {
+.component-container .title {
 font-family: 'Times New Roman', Times, serif;
 font-style: normal;
 font-weight: 400;
 font-size: 60px;
 line-height: 32px;
-text-align: center;
 text-transform: uppercase;
 color: #FFFFFF;
 flex: none;
@@ -79,20 +80,19 @@ order: 0;
 flex-grow: 0
 }
 
-div.component.banner .description {
-font-family: 'europa-regular';
+.component-container .description {
+font-family: sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 20px;
 line-height: 24px;
-text-align: center;
 color: #FFFFFF;
 text-transform: none;
 margin: 20px auto;
 }
 
 @media (max-width: 576px) {
-div.component.banner .description {
+.component-container .description {
     width: 318px
 }
 }
@@ -102,7 +102,7 @@ text-decoration: none
 }
 
 @media (max-width: 720px) {
-div.component.banner {
+.component-container {
     height: 287px
 }
 }
@@ -153,7 +153,73 @@ div.component.banner {
 }
 
 
+/* banner 2 */
+.component-container-2 .component{
+    height: 500;
+    background-image: url(../images/background-images/f12a250d4c.jpg) !important;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+.component-container-2 .banner-content{
+    text-align: start;
+    width: 50%;
+}
+.component-container-2 .banner-content .title{
+    line-height: 60px;
+    font-size: 65px;
+    margin-bottom: 2.5rem;
+}
+.component-container-2 .description{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+}
+.component-container-2 .banner-content .button-component .btn{
+    background: none;
+    border: 2px solid white ;
+    color: white;
+    width: fit-content;
+    padding:5px 30px;
 
+}
+
+
+/* collection starts  */
+.collections .collection-item .collection-title h4{
+    font-family: sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+
+/* collaged section */
+
+.collage-main .collage-single {
+    height: 450px;
+    background-image: url(../images/background-images/collage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.collage-main .collage-single .collage-content{
+    padding-left: 30rem;
+}
+.collage-main .collage-single .collage-content .title{
+    color: black;
+    font-weight: 500;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 4px;
+}
+.collage-main .collage-single .collage-content .btn{
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+}
 /* footer section */
 
 .footer-section {
