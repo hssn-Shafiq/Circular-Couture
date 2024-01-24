@@ -33,7 +33,7 @@ header{
 
 div.component.banner {
     height: 600px;
-    background-image: url(/assets/images/background-images/f12a250d4c.jpg), url(/assets/images/background-images/bg3.jpg);
+    background-image: url(../images/background-images/f12a250d4c.jpg), url(../images/background-images/bg3.jpg);
     background-position: left, right;
     background-repeat: no-repeat;
     background-size: 50% 100%, 50% 100%;
