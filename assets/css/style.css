@@ -10,7 +10,10 @@ body{
     --font-family: sans-serif;
 }
 header{
-    overflow-x: hidden !important;;
+    overflow-x: hidden !important;
+    position: sticky !important;
+    top: 0;
+    z-index: 1000;
 }
 .navbar .navbar-nav{
     width: 80%;
@@ -312,6 +315,19 @@ text-decoration: none
         .collections .collection-item img{
             width: 200px !important;
         }
+    }
+    .collage-content{
+        /* text-align: start !important; */
+        padding-left: 0rem !important;
+    }
+    .banner-content{
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+        width: 100% !important;
+    }
+    .collections{
+        margin-top: 10rem !important;
+        text-align: center !important;
     }
 
 }
