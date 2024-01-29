@@ -19,12 +19,13 @@
 
     <link rel="stylesheet" href="css/stylesheet.css" media="all">
 
-    <!-- <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/le-frog/jquery-ui.min.css"
-        media="screen"> -->
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/le-frog/jquery-ui.min.css"
+        media="screen">
 
     <link rel="stylesheet" href="https://use.typekit.net/hvd7cad.css">
 
      <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 
 </head>
@@ -160,7 +161,7 @@
                                 </div>
                             </div>
                             <div class="col-md-2 col-xl-3">
-                                <div class="links">
+                            <div class="links">
                                     <div class="header"> <h6 class="text-dark">DRESSES</h6>
                                     </div>
                                     <div class="body"> <a target="_top" href="collections/new_arrivals.html">All Dresses</a>
@@ -179,7 +180,7 @@
                                 </div>
                                 <div class="autumn-button d-flex justify-content-start">
                                     <h1> <span>AUTUMN '23</span></h1>
-                                    <button class="btn"> view
+                                    <button class="d-flex justify-content-center align-items-center"> view
                                         collection</button>
                                 </div>
                             </div>
@@ -233,170 +234,167 @@
 
     <div class="main-container no-overflow-x pt-0" data-controller="homepage">
         <div class="component-container collage-container g-0">
-            <div class="component banner row">
+            <div class="component banner row"
+                style="background-image: url(images/background-images/membership.jpeg);background-size: cover;">
                 <div class="col d-flex align-items-center justify-content-center justify-content-md-start">
                     <div class="banner-content">
-                        <h2 class="title">CIRCULAR COUTURE</h2>
-                        <p class="description">Designer cloth with a purpose</p>
-                        <div class="button-component">
-                            <a class="btn btn-primary -white rounded-0 text-uppercase header-btn" href="how-to-rent.html">RENT /
-                                BUY</a>
-                            <a class="btn btn-primary -white rounded-0 text-uppercase header-btn" href="selling-or-renting.html">BUY /
-                                SELL</a>
+                        <h2 class="title">SELLING OR RENTING</h2>
+                        <p class="description">Switching up fashion</p>
+                        <div class="">
+                            <a class="btn btn-primary -white rounded-0 text-uppercase " href="#">EXPLORE PLANS</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- product crousel  -->
+
+        <!-- collections -->
         <section>
-            <div class="container product-section">
-                <div class="title d-flex align-items-center justify-content-between pe-5">
-                    <h4>Now Trending</h4>
-                    <span><i class="fa-solid fa-arrow-right"></i></span>
+            <div class="container collections">
+                <div class="row d-block align-items-center justify-content-center mb-5">
+                    <div class="title text-center">
+                        <h2>HOW IT WORKS</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, accusamus.</p>
+                    </div>
                 </div>
-                <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-inner d-flex align-items-center justify-content-between">
-                        <!-- Product Item 1 -->
-                        <div class="carousel-item active">
-                            <div class="product-item">
-                               <a href="product-details-page.html"><img src="images/product-images/p1.png" class="img-fluid" alt="Product 1" /></a>
-                                <div class="product-description p-2">
-                                    <h5 class="d-flex align-items-center justify-content-between">
-                                        ZIMMERMANN<span class="heart-icon"><i class="fa-regular fa-heart"></i></span>
-                                    </h5>
-                                    <p class="catagory">Gold bee clutchbag</p>
-                                    <p class="price"><strike>RRP $350</strike></p>
-                                    <p class="rent-buy d-flex align-items-center justify-content-between">
-                                        RENT $40 <span>BUY $250</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Product Item 2 -->
-                        <div class="carousel-item active">
-                            <div class="product-item">
-                                <a href="product-details-page.html"><img src="images/product-images/p2.png" class="img-fluid" alt="Product 1" /></a>
-                                <div class="product-description p-2">
-                                    <h5 class="d-flex align-items-center justify-content-between">
-                                        Botega Venega<span class="heart-icon"><i class="fa-regular fa-heart"></i></span>
-                                    </h5>
-                                    <p class="catagory">Sunglasses</p>
-                                    <p class="price"><strike>RRP $350</strike></p>
-                                    <p class="rent-buy d-flex align-items-center justify-content-between">
-                                        RENT $40 <span>BUY $250</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Product Item 3 -->
-                        <div class="carousel-item active">
-                            <div class="product-item">
-                               <a href="product-details-page.html"><img src="images/product-images/p3.png" class="img-fluid" alt="Product 1" /></a>
-                                <div class="product-description p-2">
-                                    <h5 class="d-flex align-items-center justify-content-between">
-                                        ZIMMERMANN<span class="heart-icon"><i class="fa-regular fa-heart"></i></span>
-                                    </h5>
-                                    <p class="catagory">White shorts with gold buttons</p>
-                                    <p class="price"><strike>RRP $350</strike></p>
-                                    <p class="rent-buy d-flex align-items-center justify-content-between">
-                                        RENT $40 <span>BUY $250</span>
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Product Item 4 -->
-                        <div class="carousel-item active">
-                            <div class="product-item">
-                              <a href="product-details-page.html"> <img src="images/product-images/p4.png" class="img-fluid" alt="Product 1" /></a>
-                                <div class="product-description p-2">
-                                    <h5 class="d-flex align-items-center justify-content-between">
-                                        ZIMMERMANN<span class="heart-icon"><i class="fa-regular fa-heart"></i></span>
-                                    </h5>
-                                    <p class="catagory">Two tone sequin top</p>
-                                    <p class="price"><strike>RRP $350</strike></p>
-                                    <p class="rent-buy d-flex align-items-center justify-content-between">
-                                        RENT $40 <span>BUY $250</span>
-                                    </p>
-                                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="collection-item">
+                            <img src="images/icons/correct.png" alt="" width="60" />
+                            <div class="collection-title text-center mt-5">
+                                <h4>Select</h4>
+                                <p>select a plan that suits you. <br />
+                                    pause or cancel anytime.
+                                </p>
                             </div>
                         </div>
                     </div>
+                    <div class="col">
+                        <div class="collection-item">
+                            <img src="images/icons/dummy.png" alt="" width="60" />
+                            <div class="collection-title text-center mt-5">
+                                <h4>Choose</h4>
+                                <p>Browse our suits and choose your first 5 items
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="collection-item">
+                            <img src="images/icons/paper-bag.png" alt="" width="60" />
+                            <div class="collection-title text-center mt-5">
+                                <h4>Recieve</h4>
+                                <p>You want wait long. <br />
+                                    Recieve in 1 - 3 business days.
+                                </p>
 
-                    <!-- Navigation Buttons -->
-                    <!-- <button class="carousel-control-prev" type="button" data-bs-target="#productCarousel" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#productCarousel" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="collection-item">
+                            <img src="images/icons/hangers.png" alt="" width="60" />
+                            <div class="collection-title text-center mt-5">
+                                <h4>Swap</h4>
+                                <p>Return what you want,<br />
+                                    hold onto items you love.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
             </div>
         </section>
 
         <!-- banner 2 -->
         <section>
             <div class=" component-container-2 mt-5">
-                <div class="single-image row">
+                <div class="single-image row"
+                    style="background-image: url(images/background-images/show.jpeg) !important;background-size: cover;background-position: center !important;">
                     <div class="col d-flex align-items-center justify-content-start justify-content-md-start">
                         <div class="single-banner-content text-start px-5">
-                            <h2 class="title">SUSTAINABLE <br />FASHION</h2>
-                            <p class="description">Our Future Depends On You</p>
+                            <h2 class="title mb-4">THE PERKS</h2>
+                            <ul style="list-style: none;" class="text-light mt-0 pt-0">
+                                <li class="mb-3 mt-4 ">Free 1-3 day shipping</li>
+                                <li class="mb-3 ">25% off one time rentals</li>
+                                <li class="mb-3 ">Keep items what you want</li>
+                                <li class="mb-3 ">pause or cancel anytime</li>
+                                <li class="mb-5 ">Dry cleaning & reasonable repairs</li>
+
+                            </ul>
                             <div class="button-component">
-                                <a class="btn  rounded-0 text-uppercase header-btn" href="how-to-lend.html">HOW IT WORKS</a>
+                                <a class="btn rounded-0 text-uppercase header-btn ml-4" href="#">JOIN NOW</a>
                             </div>
                         </div>
-                    </div>
+                    </div>`
                 </div>
             </div>
         </section>
 
-        <!-- collections -->
-        <section>
-            <div class="container collections">
-                <div class="row">
-                    <div class="col">
-                        <div class="collection-item">
-                            <img src="images/collections/1.png" alt="" width="250" />
-                            <div class="collection-title text-center mt-3">
-                                <h4>ZIMMERMANN</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="collection-item">
-                            <img src="images/collections/2.png" alt="" width="250" />
-                            <div class="collection-title text-center mt-3">
-                                <h4>Balmain</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="collection-item">
-                            <img src="images/collections/3.png" alt="" width="250" />
-                            <div class="collection-title text-center mt-3">
-                                <h4>Isabel marant</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="collection-item">
-                            <img src="images/collections/4.png" alt="" width="250" />
-                            <div class="collection-title text-center mt-3">
-                                <h4>emilio pucci</h4>
-                            </div>
-                        </div>
+        <section id="pricing-section" class="mt-5">
+            <div class="container pricing-main">
+                <div class="row d-block align-items-center justify-content-center mb-5">
+                    <div class="title text-center">
+                        <h2>CHOOSE A PLAN</h2>
+                        <p>Choose a plan based on how many shipment you want per month</p>
                     </div>
                 </div>
-                <div class="row text-center my-5 mx-auto d-flex align-items-center justify-content-center">
-                    <div class="shop-all text-center">
-                       <a href="collections/new_arrivals.html"><button class="btn bg-light py-2 px-5">Shop All</button></a>
+                <div class="row pricing-plans">
+                    <div class="col plan text-center">
+                        <div class="header">
+                            <h1>5</h1>
+                            <span>ITEMS / MONTH</span>
+                            <hr class="mx-5">
+                            <span class="price">$95</span>
+                        </div>
+                        <div class="description mt-3">
+                            <ul class="px-0">
+                                <li>5 items at a time</li>
+                                <li>1 shipment/month</li>
+                                <li>Limited Closet access</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer mt-4">
+                            <a href="membership.html" class="btn btn-primary text-light  -black px-5">Get Started</a>
+                        </div>
+                    </div>
+                    <div class="col plan text-center">
+                        <div class="header">
+                            <h1>10</h1>
+                            <span>ITEMS / MONTH</span>
+                            <hr class="mx-5">
+                            <span class="price">$115</span>
+                        </div>
+                        <div class="description mt-3">
+                            <ul class="px-0">
+                                <li>5 items at a time</li>
+                                <li>2 shipment/month</li>
+                                <li>Complete CLoset access</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer mt-4">
+                            <a href="membership.html" class="btn btn-primary text-light  -black px-5">Get Started</a>
+                        </div>
+                    </div>
+                    <div class="col plan text-center">
+                        <div class="header">
+                            <h1>15</h1>
+                            <span>ITEMS / MONTH</span>
+                            <hr class="mx-5">
+                            <span class="price">$150</span>
+                        </div>
+                        <div class="description mt-3">
+                            <ul class="px-0">
+                                <li>5 items at a time</li>
+                                <li>3 shipment/month</li>
+                                <li>Complete Closet access</li>
+                            </ul>
+                        </div>
+                        <div class="pricing-footer mt-4">
+                            <a href="membership.html" class="btn btn-primary text-light  -black px-5">Get Started</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -405,77 +403,93 @@
         <!-- collage images -->
         <section>
             <div class="container collage-main my-5">
-                <div class="row collage-single d-flex align-items-center justify-content-center">
-                    <div class="collage-content text-center" style="padding-left: 35rem !important;">
-                        <h4 class="title">AUTUMN '23</h4>
-                        <a href="collections/resale.html"><button class="btn bg-light text-dark">VIEW COLLECTION</button></a>
-                    </div>
-                </div>
-
-                <div class="row d-flex justify-content-between gap-4 mt-3">
-                    <div class="col px-0">
-                        <a href="#"><img src="images/background-images/collage3.png" alt="" height="400"
-                                width="100%" /></a>
-                    </div>
-                    <div class="col px-0">
-                        <a href="#">
-                            <img src="images/background-images/collage2.png" alt="" height="400" width="100%" /></a>
+                <div class="row collage-single d-flex align-items-end justify-content-end align-items-md-center" style="background-image: url(images/background-images/f12a250d4c.jpg);background-color: #15172f;background-size: 50% 100%;background-repeat: no-repeat;">
+                    <div class="collage-content text-end p-5 ps-0 ">
+                        <h4 class="title text-light">Fashion With <br>A Purpose</h4>
+                        <button class="btn bg-light text-dark">VIEW COLLECTION</button>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- gallerty -->
-        <section>
-            <div class="container-fluid gallery-main px-0">
-                <div class="row gallery-content-top  text-center">
-                    <div class="title">
-                        <h2>INSTA-PIRATIONAL</h2>
-                        <p>#CIRCULARCOUTURE</p>
-                        <hr />
-                    </div>
+       <section>
+        <div class="container accordian-main px-5 py-5">
+            <h2 class="text-center">FAQS</h2>
+            <div class="accordion">
+              <div class="accordion-item">
+                <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">How many items do I get each month.
+                    ?</span><span class="icon" aria-hidden="true"></span></button>
+                <div class="accordion-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
                 </div>
-                <div class="row d-flex">
-                    <div class="col">
-                        <img src="images/gallery-images/4.png" alt="" width="100%" />
-                    </div>
-                    <div class="col">
-                        <img src="images/gallery-images/3.png" alt="" width="100%" />
-                    </div>
-                    <div class="col">
-                        <img src="images/gallery-images/2.png" alt="" width="100%" />
-                    </div>
-                    <div class="col">
-                        <img src="images/gallery-images/1.png" alt="" width="100%" />
-                    </div>
-                    <div class="col">
-                        <img src="images/gallery-images/5.png" alt="" width="100%" />
-                    </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">How long does shipping take?</span><span class="icon" aria-hidden="true"></span></button>
+                <div class="accordion-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
                 </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">How long can I keep the items?
+                </span><span class="icon" aria-hidden="true"></span></button>
+                <div class="accordion-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">Can I keep or purchase the clothing?
+                </span><span class="icon" aria-hidden="true"></span></button>
+                <div class="accordion-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-5" aria-expanded="false"><span class="accordion-title">What types of items are included in a subscription?
+                </span><span class="icon" aria-hidden="true"></span></button>
+                <div class="accordion-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-1" aria-expanded="false"><span class="accordion-title">How do I send back my returns?
+                </span><span class="icon" aria-hidden="true"></span></button>
+                <div class="accordion-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-2" aria-expanded="false"><span class="accordion-title">What happens il I lose or damage an item.
+                </span><span class="icon" aria-hidden="true"></span></button>
+                <div class="accordion-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-3" aria-expanded="false"><span class="accordion-title">How are the clothes cleaned.
+                </span><span class="icon" aria-hidden="true"></span></button>
+                <div class="accordion-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button id="accordion-button-4" aria-expanded="false"><span class="accordion-title">Can I switch my plan?
+                </span><span class="icon" aria-hidden="true"></span></button>
+                <div class="accordion-content">
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.</p>
+                </div>
+              </div>
+          </div>
+       </section>
 
-                <div class="row text-center d-flex align-items-center justify-content-center my-5">
-                    <div class="follow-us">
-                        <button class="bg-light py-2 px-5">Follow US</button>
-                        <div class="icons mt-3">
-                            <i class="fa-brands fa-facebook-f ms-2"></i>
-                            <i class="fa-brands fa-instagram ms-2"></i>
-                            <i class="fa-brands fa-twitter ms-2"></i>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <div class="row  mx-0 mt-5 py-4">
-            <div class=" col-lg-8 mx-auto d-flex justify-content-center flex-column guest-list-button">
-                <h1 class="mt-2"><span>guest list</span></h1>
-                <h5 class="mt-3"><span>Join our guest list for the latest in trending and fashion
-                        updates.</span></h5>
-                <input class="mt-5" type="text" placeholder=" Email">
-               <a href="list-item-step-two.html"> <button class="mt-4 mb-4 btn-signup1">sign up</button></a>
-            </div>
+       <div class="row  mx-0 mt-5 py-4">
+        <div class=" col-lg-8 mx-auto d-flex justify-content-center flex-column guest-list-button">
+            <h1 class="mt-2"><span>guest list</span></h1>
+            <h5 class="mt-3"><span>Join our guest list for the latest in trending and fashion
+                    updates.</span></h5>
+            <input class="mt-5" type="text" placeholder=" Email">
+           <a href="list-item-step-two.html"> <button class="mt-4 mb-4 btn-signup1">sign up</button></a>
         </div>
-        
+    </div>
     </div>
 
     <footer class="footer-section2">
@@ -490,8 +504,7 @@
                                     <a class="link" href="/about-us.html">Our story</a>
                                 </li>
                                 <li class="mb-3">
-                                    <a target="_blank" class="link"
-                                        href="/sustainability.html">sustainability</a>
+                                    <a target="_blank" class="link" href="/sustainability.html">sustainability</a>
                                 </li>
                                 <li class="mb-3">
                                     <a class="link" href="how-to-lend.html">How it works</a>
@@ -715,7 +728,8 @@
                             src="https://res.cloudinary.com/dcaptnlz3/image/asset/close-fec2062f4c7f143606f4dbba3b18c362.svg">
                     </span>
                     <h3 class="text-center">How Credit Works</h3>
-                    <p> Earn 5% of the total rental price as CIRCULAR COUTURE credit on every successful rental. Successful rentals
+                    <p> Earn 5% of the total rental price as CIRCULAR COUTURE credit on every successful rental.
+                        Successful rentals
                         do not have a fit guarantee or dispute resolution refund. Credits can be applied at checkout on
                         future rentals. Credits will be awarded 48 hours after the rental end date. No minimum spend
                         applies but credits cannot be used in conjunction with coupon codes. </p>
@@ -914,8 +928,9 @@
                                     <div class="col-lg-12">
                                         <p class="text-center text-uppercase terms-text my-2"> By registering with a 3rd
                                             party,
-                                            <br> I accept <span class="circular-couture-font-logo">CIRCULAR COUTURE</span>'s <a
-                                                href="/terms-of-service" target="_blank" class="btn-circular-couture">terms of
+                                            <br> I accept <span class="circular-couture-font-logo">CIRCULAR
+                                                COUTURE</span>'s <a href="/terms-of-service" target="_blank"
+                                                class="btn-circular-couture">terms of
                                                 service</a> and <a href="/privacy-policy" target="_blank"
                                                 class="btn-circular-couture">privacy policy</a>.
                                         </p>
@@ -1214,7 +1229,8 @@
                                     </div>
                                     <div class="col-12 text-right mobile-hide">
                                         <p class="text-center or-separator px-2 mb-4"> Create your <span
-                                                class="circular-couture-font-logo">CIRCULAR COUTURE</span> account to join the collective,
+                                                class="circular-couture-font-logo">CIRCULAR COUTURE</span> account to
+                                            join the collective,
                                             create wishlists and begin renting. </p>
                                     </div>
                                     <div class="col-lg-12" data-target="sign-up.registrationFormWrapper">
@@ -1369,7 +1385,8 @@
                         src="https://res.cloudinary.com/dcaptnlz3/image/asset/close-fec2062f4c7f143606f4dbba3b18c362.svg">
                 </span>
                 <h3 class="text-center">How Credit Works</h3>
-                <p> Earn 5% of the total rental price as CIRCULAR COUTURE credit on every successful rental. Successful rentals do
+                <p> Earn 5% of the total rental price as CIRCULAR COUTURE credit on every successful rental. Successful
+                    rentals do
                     not have a fit guarantee or dispute resolution refund. Credits can be applied at checkout on future
                     rentals. Credits will be awarded 48 hours after the rental end date. No minimum spend applies but
                     credits cannot be used in conjunction with coupon codes. </p>
@@ -1414,4 +1431,5 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
 <script src="js/script.js"></script>
- </html>
+
+</html>
