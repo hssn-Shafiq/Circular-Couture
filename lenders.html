@@ -532,40 +532,48 @@
         </footer>
         <!-- Modal -->
         <div data-controller="mobile-nav">
-            <div class="modal filter-modal mobile-menu-modal left fade" id="mobile_nav_modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal filter-modal mobile-menu-modal left fade" id="mobile_nav_modal" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog m-0 " role="document">
                     <div class="modal-content rounded-0 border-0">
                         <div class="modal-body">
                             <div class="content -main">
                                 <ul class="list-unstyled text-uppercase">
-                                    <li><a href="#" class="arrow d-block w-100" data-toggle="modal" data-target="#just_in_menu">Just In</a></li>
-                                    <li><a href="#" class="arrow d-block w-100" data-toggle="modal" data-target="#designers_menu">Designers</a></li>
-                                    <li><a href="#" class="arrow d-block w-100" data-toggle="modal" data-target="#clothing_menu">Clothing</a></li>
-                                    <li><a class="d-block w-100" href="/collections/dresses">Dresses</a></li>
-                                    <li><a class="d-block w-100" href="/collections/bags">Bags</a></li>
-                                    <li><a href="#" class="arrow d-block w-100" data-toggle="modal" data-target="#accessories_menu">Accessories</a></li>
-                                    <li><a class="d-block w-100" href="/edits.html">Edits</a></li>
-                                    <li><a class="d-block font-weight-bold text-circular-couture-light-red w-100" href="/collections/resale.html">Resale</a></li>
-                                    <li><a class="d-block w-100" href="/lenders">Lenders</a></li>
+                                    <li><a href="collections/new_arrivals.html" class=" d-block w-100" >New In</a></li>
+                                    <li><a href="designers.html" class=" d-block w-100" >Designers</a></li>
+                                    <li><a href="#" class="arrow d-block w-100" data-toggle="modal"
+                                            data-target="#clothing_menu">Clothing</a></li>
+                                    <li><a class="arrow d-block w-100" href="collections/clothing.html" data-toggle="modal"
+                                        data-target="#designers_menu">Dresses</a></li>
+                                    <!-- <li><a class="d-block w-100" href="/collections/bags">Bags</a></li> -->
+                                    <li><a href="collections/accessories.html" class="arrow d-block w-100" >Accessories</a></li>
+                                    <li><a class="d-block w-100" href="edits.html">Edits</a></li>
+                                    <li><a class="d-block  text-circular-couture-ligh w-100"
+                                            href="collections/resale.html">Resale</a></li>
+                                    <li><a class="d-block w-100" href="lenders.html">Lenders</a></li>
                                     <li class="devider"></li>
-                                    <li><a class="d-block w-100" href="/how-to-rent">How it works</a></li>
-                                    <li><a class="d-block w-100" href="/sustainability.html">Sustainability</a></li>
-                                    <li><a class="d-block w-100" href="/about-us">About Us</a></li>
+                                    <li><a class="d-block w-100" href="how-to-rent.html">How it works</a></li>
+                                    <li><a class="d-block w-100" href="sustainability.html">Sustainability</a></li>
+                                    <li><a class="d-block w-100" href="about-us.html">About Us</a></li>
                                     <li class="devider"></li>
-                                    <li><a data-dismiss="modal" data-toggle="modal" data-target="#signin-modal" class="d-block w-100" href="#">Sign In/Register</a></li>
+                                    <li><a data-dismiss="modal" data-toggle="modal" data-target="#signin-modal"
+                                            class="d-block w-100" href="#">Sign In/Register</a></li>
                                 </ul>
                             </div>
-                            <div class="closer" data-action="click->mobile-nav#closeAllModals"> <span class="text-uppercase text-center close-text">tap to close</span> </div>
+                            <div class="closer" data-action="click->mobile-nav#closeAllModals"> <span
+                                    class="text-uppercase text-center close-text">tap to close</span> </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="modal filter-modal mobile-menu-modal left fade -sub-modal" id="just_in_menu" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal filter-modal mobile-menu-modal left fade -sub-modal" id="just_in_menu" tabindex="-1"
+                role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog m-0 " role="document">
                     <div class="modal-content rounded-0 border-0">
                         <div class="modal-body text-uppercase">
                             <div class="content">
-                                <div class="text-center menu-header position-relative" data-dismiss="modal" data-toggle="modal" data-target="#--mobile_nav_modal">Just In</div>
+                                <div class="text-center menu-header position-relative" data-dismiss="modal"
+                                    data-toggle="modal" data-target="#--mobile_nav_modal">Just In</div>
                                 <ul class="list-unstyled">
                                     <li><a href="/collections/clothing">New clothing</a></li>
                                     <li><a href="/collections/accessories">New accessories</a></li>
@@ -574,57 +582,70 @@
                                     <li><a class="with-border-bottom" href="/collections/new_arrivals">view all</a></li>
                                 </ul>
                             </div>
-                            <div class="closer" data-action="click->mobile-nav#closeAllModals"> <span class="text-uppercase text-center close-text">tap to close</span> </div>
+                            <div class="closer" data-action="click->mobile-nav#closeAllModals"> <span
+                                    class="text-uppercase text-center close-text">tap to close</span> </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="modal filter-modal mobile-menu-modal left fade -sub-modal" id="designers_menu" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal filter-modal mobile-menu-modal left fade -sub-modal" id="designers_menu" tabindex="-1"
+                role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog m-0 " role="document">
                     <div class="modal-content rounded-0 border-0">
                         <div class="modal-body text-uppercase">
                             <div class="content">
-                                <div class="text-center menu-header position-relative" data-dismiss="modal" data-toggle="modal" data-target="#--mobile_nav_modal">Designers</div>
+                                <div class="text-center menu-header position-relative" data-dismiss="modal"
+                                    data-toggle="modal" data-target="#--mobile_nav_modal">DRESSES</div>
                                 <ul class="list-unstyled">
-                                    <li><a href="/designers/the-vampire-s-wife">THE VAMPIRE'S WIFE</a></li>
-                                    <li><a href="/designers/rixo-london">RIXO</a></li>
-                                    <li><a href="/designers/self-portrait">SELF-PORTRAIT</a></li>
-                                    <li><a href="/designers/saloni">SALONI</a></li>
-                                    <li><a href="/designers/16arlington">16ARLINGTON</a></li>
-                                    <li><a class="with-border-bottom" href="/designers">View all</a></li>
+                                    <li><a href="collections/dressses.html">ALL DRESSES</a></li>
+                                    <li><a href="collections/dress-mini.html">MINI </a></li>
+                                    <li><a href="collections/dress-kneelength.html">KEE LENGTH</a></li>
+                                    <li><a href="collections/dress-midi.html">MIDI</a></li>
+                                    <li><a href="collections/dress-maxi.html">MAXI</a></li>
+                                    <li><a href="collections/dress-gowns.html">GOWNS</a></li>
                                 </ul>
                             </div>
-                            <div class="closer" data-action="click->mobile-nav#closeAllModals"> <span class="text-uppercase text-center close-text">tap to close</span> </div>
+                            <div class="closer" data-action="click->mobile-nav#closeAllModals"> <span
+                                    class="text-uppercase text-center close-text">tap to close</span> </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="modal filter-modal mobile-menu-modal left fade -sub-modal" id="clothing_menu" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal filter-modal mobile-menu-modal left fade -sub-modal" id="clothing_menu" tabindex="-1"
+                role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog m-0 " role="document">
                     <div class="modal-content rounded-0 border-0">
                         <div class="modal-body text-uppercase">
                             <div class="content">
-                                <div class="text-center menu-header position-relative" data-dismiss="modal" data-toggle="modal" data-target="#--mobile_nav_modal">Clothing</div>
+                                <div class="text-center menu-header position-relative" data-dismiss="modal"
+                                    data-toggle="modal" data-target="#--mobile_nav_modal">Clothings</div>
                                 <ul class="list-unstyled">
-                                    <li><a href="/collections/dresses">DRESSES</a></li>
-                                    <li><a href="/collections/jumpsuits">JUMPSUITS</a></li>
-                                    <li><a href="/collections/tops">TOPS &amp; SHIRTS</a></li>
-                                    <li><a href="/collections/bottoms">Bottoms</a></li>
-                                    <li><a href="/collections/outerwear">Outerwear</a></li>
-                                    <li><a class="with-border-bottom" href="/collections/clothing">view all</a></li>
+                                    <li><a href="collections/clothing.html">ALL CLOTHING</a></li>
+                                    <li><a href="collections/dressses.html">DRESSES</a></li>
+                                    <li><a href="collections/tops.html">TOPS </a></li>
+                                    <li><a href="collections/shirts.html">SHIRTS</a></li>
+                                    <li><a href="collections/trouser.html">TROUSERS</a></li>
+                                    <li><a href="collections/sweaters.html">SWEATERS</a></li>
+                                    <li><a href="collections/outerwear.html">OUTERWEAR</a></li>
+                                    <li><a href="collections/jumpsuits.html">JUMPSUITS</a></li>
+                                    <!-- <li><a class="with-border-bottom" href="/collections/clothing">view all</a></li> -->
                                 </ul>
                             </div>
-                            <div class="closer" data-action="click->mobile-nav#closeAllModals"> <span class="text-uppercase text-center close-text">tap to close</span> </div>
+                            <div class="closer" data-action="click->mobile-nav#closeAllModals"> <span
+                                    class="text-uppercase text-center close-text">tap to close</span> </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="modal filter-modal mobile-menu-modal left fade -sub-modal" id="accessories_menu" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    
+            <!-- <div class="modal filter-modal mobile-menu-modal left fade -sub-modal" id="accessories_menu" tabindex="-1"
+                role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog m-0 " role="document">
                     <div class="modal-content rounded-0 border-0">
                         <div class="modal-body text-uppercase">
                             <div class="content">
-                                <div class="text-center menu-header position-relative" data-dismiss="modal" data-toggle="modal" data-target="#--mobile_nav_modal">Accessories</div>
+                                <div class="text-center menu-header position-relative" data-dismiss="modal"
+                                    data-toggle="modal" data-target="#--mobile_nav_modal">Accessories</div>
                                 <ul class="list-unstyled">
                                     <li><a href="/collections/bags">BAGS</a></li>
                                     <li><a href="/search?listing%5Bsearch_for%5D=belts">BELTS</a></li>
@@ -636,31 +657,46 @@
                                     <li><a class="with-border-bottom" href="/collections/accessories">view all</a></li>
                                 </ul>
                             </div>
-                            <div class="closer" data-action="click->mobile-nav#closeAllModals"> <span class="text-uppercase text-center close-text">tap to close</span> </div>
+                            <div class="closer" data-action="click->mobile-nav#closeAllModals"> <span
+                                    class="text-uppercase text-center close-text">tap to close</span> </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div id="how-credit-works-modal" class="component modal how-credit-works-modal fade" data-controller="modal-component" data-modal-component-state-value="hide">
+            </div> -->
+            <div id="how-credit-works-modal" class="component modal how-credit-works-modal fade"
+                data-controller="modal-component" data-modal-component-state-value="hide">
                 <div class="modal-dialog modal-dialog-centered">
                     <div class="modal-content"> <span class="close-modal" data-action="click->modal-component#hideModal">
-            <img alt="An icon of a close" width="24" height="24" src="https://res.cloudinary.com/dcaptnlz3/image/asset/close-fec2062f4c7f143606f4dbba3b18c362.svg">
-    </span>
+                            <img alt="An icon of a close" width="24" height="24"
+                                src="https://res.cloudinary.com/dcaptnlz3/image/asset/close-fec2062f4c7f143606f4dbba3b18c362.svg">
+                        </span>
                         <h3 class="text-center">How Credit Works</h3>
-                        <p> Earn 5% of the total rental price as CIRCULAR COUTURE credit on every successful rental. Successful rentals do not have a fit guarantee or dispute resolution refund. Credits can be applied at checkout on future rentals. Credits will be awarded 48 hours after the rental end date. No minimum spend applies but credits cannot be used in conjunction with coupon codes. </p>
+                        <p> Earn 5% of the total rental price as CIRCULAR COUTURE credit on every successful rental. Successful rentals
+                            do not have a fit guarantee or dispute resolution refund. Credits can be applied at checkout on
+                            future rentals. Credits will be awarded 48 hours after the rental end date. No minimum spend
+                            applies but credits cannot be used in conjunction with coupon codes. </p>
                     </div>
                 </div>
             </div>
-            <div class="modal filter-modal mobile-nav-search fade -sub-modal" id="nav_mobile_search_form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal filter-modal mobile-nav-search fade -sub-modal" id="nav_mobile_search_form" tabindex="-1"
+                role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog m-0 " role="document">
                     <div class="modal-content rounded-0 border-0">
-                        <div class="modal-body text-uppercase"> <span class="close-button" data-dismiss="modal"><img height="21" class="mb-1" alt="Close search form" src="https://res.cloudinary.com/dcaptnlz3/image/asset/close2-9ce00f8bad7b880f0021600df402c8e5.svg"></span>
-                            <form class="default-form" action="/search/header%20search" accept-charset="UTF-8" data-remote="true" method="post">
+                        <div class="modal-body text-uppercase"> <span class="close-button" data-dismiss="modal"><img
+                                    height="21" class="mb-1" alt="Close search form"
+                                    src="https://res.cloudinary.com/dcaptnlz3/image/asset/close2-9ce00f8bad7b880f0021600df402c8e5.svg"></span>
+                            <form class="default-form" action="/search/header%20search" accept-charset="UTF-8"
+                                data-remote="true" method="post">
                                 <input type="hidden" name="_method" value="patch" autocomplete="off">
-                                <input type="hidden" name="authenticity_token" value="JpQNucmeKU/30ZpfC20sUDjApsDG2N1DBtu3uEmdyF4ZygxqaARKWdeQLcIbKJqOpVO8ju+IC444T9PUlH3QjA==" autocomplete="off">
+                                <input type="hidden" name="authenticity_token"
+                                    value="4tNVQCTgx8xOJG5Kma0FHXJ6O6RuGFarcaHOwVVKtInUcj/nEc3FJuS51jBYyrkOl+IurmRb4MzhBDcJIAjW+A=="
+                                    autocomplete="off">
                                 <div class="form-group mb-0 d-flex">
-                                    <input class="form-control d-inline mb-0 mr-2" autocomplete="off" required="required" type="search" name="listing[search_for]" id="listing_search_for">
-                                    <input type="submit" name="commit" value="Search" class="btn btn-primary -dark-red" data-disable-with="Search"> </div>
+                                    <input class="form-control d-inline mb-0 mr-2" autocomplete="off" required="required"
+                                        type="search" name="listing[search_for]" id="listing_search_for">
+                                    <input type="submit" name="commit" value="Search" class="btn btn-primary -dark-red"
+                                        data-disable-with="Search">
+                                </div>
                             </form>
                         </div>
                     </div>
